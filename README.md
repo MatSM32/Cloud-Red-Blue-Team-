@@ -36,7 +36,7 @@ Now go to Ubuntu and start up Splunk and use this query if you want to see how m
 If you want to graph it on a Map then use this query instead:
 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/640c349f-44a9-4078-bbcc-1dd3f5d51faa)
-
+ 
 
 
 
