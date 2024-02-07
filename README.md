@@ -46,7 +46,8 @@ Make a scheduled alert like this:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/a959ff33-5e86-4a2d-ad67-db5989928fdf)
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/11b8271d-fcdf-40cf-b4c1-5fb122608194)
 
-
+So I went back to AWS and then went to the security group and only allowed my IP address:
+![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/094d4c43-3c9a-4ca1-bb53-2f3ad66a4fda)
 
 
 
