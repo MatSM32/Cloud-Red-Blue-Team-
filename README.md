@@ -37,7 +37,7 @@ If you want to graph it on a Map then use this query instead:
 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/640c349f-44a9-4078-bbcc-1dd3f5d51faa)
 
-There are multiple ways to defend against this you can use a NIDS to detect and block IP addresses that are not allowed, make a rule in the firewall that only allows certain ip addresses to access RDP, make an alert in your SIEM to be able to identify a dictionary attack. Im only going to be showing how to make an alert and only making a firewall rule that will only allow certain IP addresses.
+There are multiple ways to defend against this you can use a NIDS to detect and block IP addresses that are not allowed, make a rule in the firewall that only allows certain ip addresses to access RDP, make an alert in your SIEM to be able to identify a dictionary attack. Im only going to be showing how to make an alert, only making a firewall rule that will only allow certain IP addresses and also make a complex password .
 
 Make an alert by pressing save as and make sure you have a query in the search bar:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/80caa27d-cbd2-4ff1-9c79-033c6d82f297)
