@@ -4,6 +4,7 @@ To do this you will need to set up three vms using any hypervisors of your choic
 # Utilities Used
 | Splunk 
 | Hydra
+| Nessus 
 # Environments Used 
 | Windows 10
 | Kali Linux
@@ -48,6 +49,15 @@ Make a scheduled alert like this, which will alert when failed logins are greate
 
 So I went back to AWS and then went to the security group and only allowed my IP address:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/094d4c43-3c9a-4ca1-bb53-2f3ad66a4fda)
+
+![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/73e6abe9-4edd-498f-adca-fbafc3707cf8)
+![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/e4d6e0fb-671e-4555-9791-6cebac218808)
+
+
+![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/a2806146-a346-408f-b4aa-fd9e93ace708)
+
+
+
 
 
 
