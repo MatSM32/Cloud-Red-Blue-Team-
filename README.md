@@ -17,7 +17,7 @@ Right-click and open Terminal and do sudo apt-get install hydra:
 Now on your vulnerable machine make sure that your firewall wall is disabled and WAF inbound rule for rdp is letting any ip address access your machine. Next, go to command prompt and do ipconfig to find the ip address:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/a43bf0f3-9eae-429f-8b77-c6ecde171a90)
 
-Switch back to Kali Link with the Ipv4 address and now do a Nmap scan:
+Switch back to Kali Link with the Ipv4 address and now do a Nmap scan (doing this is active footprinting so if the vulnerable machince had a IDS it will detect you doing this scan):
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/4d618236-7e7d-4590-bc0a-134bffbda1e8)
 As you can see there are many open ports due to the firewall configuration. Here we are looking to see if the rdp port is open. If you didnt know the port number for rdp is 3389, so yes it is open.
 
@@ -42,7 +42,7 @@ There are multiple ways to defend against this you can use a NIDS to detect and 
 Make an alert by pressing save as and make sure you have a query in the search bar:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/80caa27d-cbd2-4ff1-9c79-033c6d82f297)
 
-Make a scheduled alert like this:
+Make a scheduled alert like this, which will alert when failed logins are greater than 5:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/a959ff33-5e86-4a2d-ad67-db5989928fdf)
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/11b8271d-fcdf-40cf-b4c1-5fb122608194)
 
