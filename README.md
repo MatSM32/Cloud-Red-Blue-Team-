@@ -38,9 +38,9 @@ If you want to graph it on a Map then use this query instead:
 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/640c349f-44a9-4078-bbcc-1dd3f5d51faa)
 
-There are multiple ways to defend against this you can use a NIDS to detect and block IP addresses that are not allowed, make a rule in the firewall that only allows certain ip addresses to access RDP, make an alert in your SIEM to be able to identify a dictionary attack. Im only going to be showing how to make an alert, making a firewall rule that will only allow certain IP addresses and also you should use a complex password.
+There are multiple ways to defend against this. I used Mitre att&ck to help me figure out ways to defend against this type of brute force attack. So from what Mitre att&ck showed, you can use a NIDS to detect and block IP addresses that are not allowed, make a rule in the firewall that only allows certain ip addresses to access RDP, make an alert in your SIEM to be able to identify a dictionary attack. I'm only going to be showing how to make an alert, making a firewall rule that will only allow your IP addresses and also you should make a complex password if you are not using one.
 
-Make an alert by pressing save as and make sure you have a query in the search bar:
+Make an alert by pressing save-as and make sure you have a query in the search bar:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/80caa27d-cbd2-4ff1-9c79-033c6d82f297)
 
 Make a scheduled alert like this, which will alert when failed logins are greater than 5:
@@ -60,7 +60,7 @@ These are vulnerabilities that appeared in the scan:
 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/a2806146-a346-408f-b4aa-fd9e93ace708)
 
-I chose the TLS vulnerability one and it gives you information on the vulnerability and what you should do to mitigate it: 
+I chose the TLS vulnerability and it gives you information on the vulnerability and what you should do to mitigate it: 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/471159b3-f1d3-4c21-8c41-d95c6ceeb0b5)
 
 
