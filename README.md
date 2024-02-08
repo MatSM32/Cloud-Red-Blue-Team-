@@ -50,7 +50,10 @@ Make a scheduled alert like this, which will alert when failed logins are greate
 So I went back to AWS and then went to the security group and only allowed my IP address:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/094d4c43-3c9a-4ca1-bb53-2f3ad66a4fda)
 
+Next open up Nessus, click on create a scan and click Basic Network Scan. Enter a name for the scan, then for target put the ip address of the vulnerable machine:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/73e6abe9-4edd-498f-adca-fbafc3707cf8)
+
+Then click credential scan and enter the username and password for the vulnerable machine. A creditional scan is a more in depth scan so it will take at least 10-15 minutes:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/e4d6e0fb-671e-4555-9791-6cebac218808)
 
 
