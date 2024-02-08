@@ -53,14 +53,14 @@ So I went back to AWS and then went to the security group and only allowed my IP
 Next open up Nessus, click on create a scan and click Basic Network Scan. Enter a name for the scan, then for target put the ip address of the vulnerable machine:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/73e6abe9-4edd-498f-adca-fbafc3707cf8)
 
-Then click credential scan and enter the username and password for the vulnerable machine. A creditional scan is a more in depth scan so it will take at least 10-15 minutes:
+Then click credential scan and enter the username and password for the vulnerable machine. A credential scan is a more in-depth scan so it will take at least 10-15 minutes:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/e4d6e0fb-671e-4555-9791-6cebac218808)
 
-These are vulnerablites that appeared in the scan:
+These are vulnerabilities that appeared in the scan:
 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/a2806146-a346-408f-b4aa-fd9e93ace708)
 
-I choose the TLS one and it gives you information on the vulnerablility and what you should do to mitigate it: 
+I chose the TLS vulnerability one and it gives you information on the vulnerability and what you should do to mitigate it: 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/471159b3-f1d3-4c21-8c41-d95c6ceeb0b5)
 
 
