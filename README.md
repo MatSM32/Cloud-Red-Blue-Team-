@@ -1,6 +1,6 @@
 # Cloud-Red/Blue-Team
 # Description 
-To do this you will need to set up three vms using any hypervisors of your choice. For me I created them in AWS, if you would like to do the same, follow this tutorial from this YouTuber: https://youtu.be/2cMkpLoKUj0?si=d9a7h05a51ojcyJU. In this project, you will be utilizing Kali Linux as an attacker to do a dictionary attack using Hydra and using Nmap to do scans to find what ports are open. With the security tools VM, you will be using Splunk and Nessus. Then with the Windows VM you will be using it as a vulnerable machine.
+To do this you will need to set up three VMs using any hypervisors of your choice. For me I created them in AWS, if you would like to do the same, follow this tutorial from this YouTuber: https://youtu.be/2cMkpLoKUj0?si=d9a7h05a51ojcyJU. In this project, you will be utilizing Kali Linux as an attacker to do a dictionary attack using Hydra and using Nmap to do scans to find what ports are open. With the security tools VM, you will be using Splunk to do correlation searches and Nessus to do vulnerability scans. Then with the Windows VM you will be using it as a vulnerable machine.
 # Utilities Used
 | Splunk 
 | Hydra
