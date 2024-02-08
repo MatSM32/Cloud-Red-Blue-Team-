@@ -1,6 +1,6 @@
 # Cloud-Red/Blue-Team
 # Description 
-To do this you will need to set up three vms using any hypervisors of your choice. For me I created them in AWS, if you would like to do the same, follow this tutorial from this YouTuber: https://youtu.be/2cMkpLoKUj0?si=d9a7h05a51ojcyJU. In this project, you will be using Kali Linux as an attacker to do a dictionary attack using Hydra and using Nmap to do scans to find what ports are open. With the security tools VM, you will be using Splunk and Nessus. Then with the Windows VM you will be using it as a vulnerable machine.
+To do this you will need to set up three vms using any hypervisors of your choice. For me I created them in AWS, if you would like to do the same, follow this tutorial from this YouTuber: https://youtu.be/2cMkpLoKUj0?si=d9a7h05a51ojcyJU. In this project, you will be utilizing Kali Linux as an attacker to do a dictionary attack using Hydra and using Nmap to do scans to find what ports are open. With the security tools VM, you will be using Splunk and Nessus. Then with the Windows VM you will be using it as a vulnerable machine.
 # Utilities Used
 | Splunk 
 | Hydra
@@ -31,7 +31,7 @@ To perform the dictionary attack type this command:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/80117edf-7d14-4d77-81a7-2828425c39a1)
 The -o found_credntials.txt is the text file that will have the user and pass if it is found after the dictionary attack.
 
-Now go to Ubuntu(Security Tool Machine) start-up Splunk and use this query if you want to see how many attempts were made and the location they came from(make sure that you include your index name because my index name might be different from yours). While doing the dictionary attack, there were at least two attempts from Poland and six from Lithuiana:
+Now go to Ubuntu (Security Tool Machine) start-up Splunk and use this query if you want to see how many attempts were made and the location they came from(make sure that you include your index name because my index name might be different from yours). While doing the dictionary attack, there were at least two attempts from Poland and six from Lithuiana:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/9d91b7ac-f1e2-4450-bfcb-9fd97138379c)
 
 If you want to graph it on a Map then use this query instead:
