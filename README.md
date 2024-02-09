@@ -29,6 +29,8 @@ Now create two text files called users.txt and pass.txt. For example type nano u
 
 To perform the dictionary attack type this command:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/80117edf-7d14-4d77-81a7-2828425c39a1)
+![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/b4afa4d4-958d-4499-b314-93550ca37a80)
+
 The -o found_credntials.txt is the text file that will have the user and pass if it is found after the dictionary attack.
 
 Now go to Ubuntu (Security Tool Machine) start-up Splunk and use this query if you want to see how many attempts were made and the location they came from(make sure that you include your index name because my index name might be different from yours). While doing the dictionary attack, I noticed that there were at least two attempts from Poland and six from Lithuiana:
