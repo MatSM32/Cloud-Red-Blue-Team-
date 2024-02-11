@@ -33,14 +33,14 @@ To perform the dictionary attack type this command:
 
 The -o found_credntials.txt is the text file that will have the user and pass if it is found after the dictionary attack.
 
-Now go to Ubuntu (Security Tool Machine) start-up Splunk and use this query if you want to see how many attempts were made and the location they came from(make sure that you include your index name because my index name might be different from yours). While doing the dictionary attack, I noticed that there were at least two attempts from Poland and six from Lithuiana:
+Now go to Ubuntu (Security Tool Machine) start-up Splunk and use this query if you want to see how many attempts were made and the location they came from(make sure that you include your index name because my index name might be different from yours). While doing the dictionary attack, I noticed that there were at least two attempts from Poland and six from Lithuiana, due to the firewall configuration I did:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/9d91b7ac-f1e2-4450-bfcb-9fd97138379c)
 
 If you want to graph it on a Map then use this query instead:
 
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/640c349f-44a9-4078-bbcc-1dd3f5d51faa)
 
-There are multiple ways to defend against this. I used Mitre att&ck to help me figure out ways to defend against this type of brute force attack. So from what Mitre att&ck showed, you can use a NIDS to detect and block IP addresses that are not allowed, make a rule in the firewall that only allows certain ip addresses to access RDP, make an alert in your SIEM to be able to identify a failed login attempts, and also to do a vulnerability scan to see if your machine has any weakness that can be exploited. I'm only going to be showing how to make an alert, making a firewall rule that will only allow your IP addresses and also you should make a complex password if you are not using one.
+There are multiple ways to defend against this. I used Mitre att&ck to help me figure out ways to defend against this type of brute force attack. So from what Mitre att&ck showed, you can use a NIDS to detect and block IP addresses that are not allowed, make a inboud rule in the firewall that only allows certain ip addresses to access RDP, make an alert in your SIEM to be able to identify a failed login attempts, and also to do a vulnerability scan to see if your machine has any weakness that can be exploited. I'm only going to be showing how to make an alert, making a firewall rule that will only allow your IP addresses, using Nessus to find any other vulnerabilites, and also you should make a complex password if you are not using one.
 
 Make an alert by pressing save-as and make sure you have a query in the search bar:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/80caa27d-cbd2-4ff1-9c79-033c6d82f297)
