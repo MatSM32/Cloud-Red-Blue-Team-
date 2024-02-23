@@ -15,7 +15,7 @@ Launch Kali Linux:
 Right-click and open Terminal and do sudo apt-get install hydra:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/63015b3a-b0e1-4f05-bd3f-bb7b8dff095f)
 
-Now on your vulnerable machine make sure that your firewall wall is disabled and WAF inbound rule for rdp is letting any ip address access your machine. Next, go to command prompt and do ipconfig to find the ip address:
+Now on your vulnerable machine make sure that your firewall wall is disabled and security group inbound rule for rdp is letting any ip address access your machine. Next, go to command prompt and do ipconfig to find the ip address:
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/a43bf0f3-9eae-429f-8b77-c6ecde171a90)
 
 Switch back to Kali Link with the Ipv4 address and now do a Nmap scan (doing this is active footprinting so if the vulnerable machince was connected to a NIDS it will detect you doing this scan):
