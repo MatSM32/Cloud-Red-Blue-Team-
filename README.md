@@ -24,7 +24,7 @@ As you can see there are many open ports due to the firewall configuration. Here
 
 Next, make a directory by using mkdir BFA and then go into it by doing cd BFA
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/6eee9f62-85f0-46ff-ade1-dde81436dd8e)
-Now create two text files called users.txt and pass.txt. For example type nano users.txt, then use chat.gpt to generate random usernames and passwords and paste it into the file then press control + x, then press y, and then enter which saves the passwords or usernames in the file. Then check to see if your files have the usernames or passwords by doing cat users.txt or pass.txt
+Now create two text files called users.txt and pass.txt. For example type nano users.txt, then use chat.gpt to generate random usernames and passwords (I didnt feel like using a whole dictionary so I just used generated passwords) and paste it into the file then press control + x, then press y, and then enter which saves the passwords or usernames in the file. Then check to see if your files have the usernames or passwords by doing cat users.txt or pass.txt
 ![image](https://github.com/MatSM32/Cloud-Red-Blue-Team-/assets/150560131/7cf5dff1-5a39-4742-8bde-4508c62b9599)
 
 To perform the dictionary attack type this command:
